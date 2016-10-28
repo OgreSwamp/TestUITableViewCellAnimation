@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UITableViewController {
-
-    @IBOutlet weak var cellContentHeightConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
