@@ -22,14 +22,14 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TestCell" rowHeight="121" id="p7W-n8-SoA" customClass="MyTableViewCell" customModule="ExpandableCells" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="121"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="p7W-n8-SoA" id="rso-V4-sXl">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p7W-n8-SoA" id="rso-V4-sXl">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-QS-GHB">
-                                            <rect key="frame" x="28" y="8" width="319" height="89.5"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-QS-GHB">
+                                            <rect key="frame" x="28" y="8" width="319" height="97.5"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKZ-aj-qZZ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKZ-aj-qZZ">
                                                     <rect key="frame" x="16" y="10" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -40,7 +40,7 @@
                                             <constraints>
                                                 <constraint firstItem="JKZ-aj-qZZ" firstAttribute="leading" secondItem="0bW-QS-GHB" secondAttribute="leading" constant="16" id="3Li-rL-Y4A"/>
                                                 <constraint firstItem="JKZ-aj-qZZ" firstAttribute="top" secondItem="0bW-QS-GHB" secondAttribute="top" constant="10" id="Ruh-1B-sUc"/>
-                                                <constraint firstAttribute="height" constant="89.5" id="v3h-fS-Bd5"/>
+                                                <constraint firstAttribute="height" constant="97.5" id="j0h-CQ-YZc"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -51,9 +51,6 @@
                                         <constraint firstItem="0bW-QS-GHB" firstAttribute="top" secondItem="rso-V4-sXl" secondAttribute="topMargin" id="aFB-z8-FIP"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="cellHeightConstraint" destination="v3h-fS-Bd5" id="oY3-56-kbs"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
